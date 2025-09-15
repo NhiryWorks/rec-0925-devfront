@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('/rakotomanana-completez-votre-reservation', 'rakotomanana.completez-votre-reservation');
+Route::view('/rakotomanana-paiement', 'rakotomanana.paiement');
