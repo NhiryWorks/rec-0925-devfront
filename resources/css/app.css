@@ -5,4 +5,13 @@
 
 @theme {
   --font-sans: 'Lato', ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #36578A;
+  --color-secondary: #008400;
+  --color-tertiary: #BF2A6B;
+  --color-quaternary: #F2F3F5;
+}
+
+@utility font-icomoon {
+  font-family: 'icomoon' !important;
 }
